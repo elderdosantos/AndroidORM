@@ -1,6 +1,5 @@
 package br.com.sintesis.velotrack.onboard.models;
 
-import br.com.sintesis.velotrack.onboard.misc.SerialHelper;
 import br.com.sintesis.velotrack.onboard.orm.Column;
 import br.com.sintesis.velotrack.onboard.orm.PrimaryKey;
 import br.com.sintesis.velotrack.onboard.orm.Table;
@@ -28,7 +27,4 @@ public class Mensagem extends Model{
 		super(context);
 	}
 
-	public void processaMensagem() {
-		this.command = SerialHelper.montaStringMensagem(this);
-	}
 }

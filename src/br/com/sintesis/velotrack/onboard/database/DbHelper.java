@@ -1,6 +1,5 @@
 package br.com.sintesis.velotrack.onboard.database;
 
-import br.com.sintesis.velotrack.onboard.R;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
